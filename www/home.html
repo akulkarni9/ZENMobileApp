@@ -1,0 +1,28 @@
+<body ng-controller="MyCtrl">
+  
+  <ion-view>
+    <!-- <div style="padding: 10px;">
+        Welcome to Zen!
+        <button class="button button-block button-positive" ng-click="logout()">
+            Log out from Facebook
+        </button>
+    </div> -->
+    <ion-slide-box ng-controller="homeCtrl" pager-click="navSlide(index)" auto-play="true" does-continue="true">
+    <ion-slide>
+        <img style="width: 100%" src="/img/Slide-img01.png">
+    </ion-slide>
+    <ion-slide>
+        <img style="width: 100%" src="/img/Slide-img02.png">
+    </ion-slide>
+    <ion-slide>
+        <img style="width: 100%" src="/img/Slide-img03.png">
+    </ion-slide>
+    <ion-slide>
+        <img style="width: 100%" src="/img/Slide-img04.png">
+        <a class="button icon-right ion-chevron-right button-calm" href="#/game">Go to Game Page</a>
+    </ion-slide>
+</ion-slide-box>
+</ion-view>
+</body>
+
+
